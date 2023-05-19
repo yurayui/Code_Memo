@@ -1,5 +1,8 @@
+## 実行
+```
+npm run dev
+```
 ## Laravel sail Install　方法 & Docker
-
 
 https://biz.addisteria.com/01laravel_sail/
 
@@ -38,11 +41,10 @@ cd test-app && ./vendor/bin/sail up -d
 ./vendor/bin/sail stop
 ```
 
-## 実行
-```
-npm run dev
-```
+## ポートが使用中の時
 
+Docker-compose.ylmファイルの
+mysqlのポート番号を変更する
 
 
 ## Reactで使用するとき
