@@ -1,4 +1,4 @@
-# Laravel sail Install　方法 & Docker
+## Laravel sail Install　方法 & Docker
 ---
 
 https://biz.addisteria.com/01laravel_sail/
@@ -11,7 +11,7 @@ wsl --list --verbose
 
 ---
 
-# Ubuntu Delete　方法
+## Ubuntu Delete　方法
 ---
 
 https://xtech.nikkei.com/atcl/nxt/column/18/01863/112600004/
@@ -20,7 +20,7 @@ wsl --unragister Ubuntu
 
 ---
 
-# Laravelプロジェクトの作成
+## Laravelプロジェクトの作成
 ---
 
 sudo curl -s https://laravel.build/test-app | bash
@@ -29,14 +29,14 @@ cd test-app && ./vendor/bin/sail up -d
 
 ----
 
-# Sailをやめるとき
+## Sailをやめるとき
 ---
-
+'''
 ./vendor/bin/sail stop
-
+'''
 ---
 
-# 実行
+## 実行
 ---
 
 npm run dev
@@ -44,7 +44,7 @@ npm run dev
 ---
 
 
-# Reactで使用するとき
+## Reactで使用するとき
 ---
 
 LaravelでReactを使用するには、 `laravel-mix` と呼ばれるnpmパッケージをインストールする必要があります。これは、フロントエンド開発用のビルドツールです。
